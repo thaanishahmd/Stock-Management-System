@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(../images/9916.jpg) no-repeat;
+    background-size: cover;
+}
+
+.area{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(176, 60%, 81%);
+}
+
+.container {
+    width: 50%;
+    height: 60vh;
+    position: relative;
+    top: 20vh;
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(21, 65, 95);
+}
+h2{
+    color: rgb(7, 0, 4);
+    text-shadow: 0px 7px 15px rgba(0, 0, 0, 0.267);
+}
+
+.button{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.button:hover{
+    background-color: rgb(13, 172, 172);
+    letter-spacing: 4px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.267);
+}
+
+.btn{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: black;
+    letter-spacing: 4px;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.267);
+}
+
+tr{
+    font-size: 20px;
+    text-align : center;
+    
+}
+
+td{
+    font-size: 18px;
+    width: 20%;
+    padding: 20px 20px
+   
+}
+
+table{
+	background-color:white;
+	width:100%;
+}
+
+.but{
+    padding: 10px;
+    color: white;
+    border: 2px ;
+    width: 200px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    background-color: red;
+    text-decoration: none
+}
+
+.but:hover {
+    background: black;
+    color: white
+  }
+  
+  .but1{
+  	width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(21, 65, 95);
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .but1:hover{
+  	background-color: black;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.267);
+    cursor: pointer;
+  }
+
+.but2{
+    padding: 10px;
+    color: white;
+    border: 2px ;
+    width: 200px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    background-color: green;
+    text-decoration: none
+}
+
+.but2:hover {
+    background: black;
+    color: white
+  }
